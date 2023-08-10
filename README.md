@@ -8,6 +8,9 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 2. Sort A->Z to find the lowest OPS, who should be Luis Aparicio with a 0.653.
 3. Sort Z->A to find the highest OPS, who should be Josh Gibson with a 1.176.
 4. With the column AC selected, go to the Data tab -> Column Stats -> Median. The median should be 0.8405, which is right in between three players: Carl Yastrzemski and Cap Anson with a 0.841, and Cool Papa Bell with a 0.840.
+<br/>
+!['Screenshot showing how the spreadsheet should look.']
+<br/>
 
 #### 2. What were the top three most common values of OPS and WAR/pos?
 1. Create a Pivot Table (Insert -> Pivot Table) encompassing the entire spreadsheet.
