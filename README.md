@@ -1,6 +1,6 @@
 # J124 Intro to Data Journalism Final Project: A Data-Driven Look Into The Baseball Hall of Fame
 ## By Kyle Ngo
-Open and make your own personal copy of the [database](https://docs.google.com/spreadsheets/d/1PE7dACChPplbgefL6Vqhv6HwqOJ9SEG_7OUa4KmGCnI/edit?usp=sharing). <br/>
+Open and make your own personal copy of the [database](https://docs.google.com/spreadsheets/d/1PE7dACChPplbgefL6Vqhv6HwqOJ9SEG_7OUa4KmGCnI/edit?usp=sharing). This data originally comes from [Baseball-Reference](https://www.baseball-reference.com/awards/hof_batting.shtml), but since the database included pitchers' hitting stats and people inducted into the Hall of Fame for other roles, like manager, I have cleaned the data to only include position players who have been inducted into the Hall of Fame for their excellent playing careers. <br/>
 
 ### Data Analysis
 #### 1. Out of those in the dataset, who had the highest OPS, the lowest OPS, and the median OPS?
@@ -9,7 +9,6 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 3. Sort Z->A to find the highest OPS, who should be Josh Gibson with a 1.176.
 4. With the column AC selected, go to the Data tab -> Column Stats -> Median. The median should be 0.8405, which is right in between three players: Carl Yastrzemski and Cap Anson with a 0.841, and Cool Papa Bell with a 0.840.
 ![Screenshot of what the spreadsheet should look like. The three bars for filtering OPS is highlighted.](Data_Analysis_Q1.png)
-
 
 #### 2. What were the top three most common values of OPS and WAR/pos?
 1. Create a Pivot Table (Insert -> Pivot Table) encompassing the entire spreadsheet.
