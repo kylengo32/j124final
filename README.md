@@ -28,9 +28,22 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 8. Dividing by 10 should give an average WAR/pos per year of 127.22 for the 2010s decade.
 9. Based on this, we can see that the inductees in the 90s had a much lower average WAR/pos than the inductees in either the 2000s or the 2010s. This could possibly indicate that much better players got inducted after 2000, or that simply not as many players in general made it in 90s compared to the 2000s or 2010s.
 
-#### 4. What is the average WAR/pos for all Hall of Fame Inductees that were inducted from 2010-2023, and are there any major outliers?
+#### 4. What is the percent change in average ASGs per year from the 2000s inductees to the 2010s inductees?
 1. Create a new Pivot Table
-2. 
+2. Put Inducted as rows, ASG as values.
+3. Add up the total number of ASGs in from 2000-2009 and 2010-2019, which should give you 199 and 153.
+4. Divide each value by 10 to give you a 19.9 average ASGs per year for the 2000s and 15.3 average ASGs per year for the 2010s.
+5. Then, do (New - Old) / New, or (15.3-19.9)/15.3, times 100, to give a percent change of 30.07%.
+
+#### 5. Find the mathematical average of every statistical column.
+1. Go to Data -> Column Stats.
+2. Scroll to find "Average."
+3. Record this value for each column, besides Rk, Name, Inducted, From, and To.
+4. The row should have these values. <br/>
+
+| Yrs   | ASG  | WAR/pos | G    | PA   | AB   | R    | H    | 2B  | 3B | HR  | RBI  | SB  | CS | BB  | SO  | IBB | GDP | SF | SH | BA    | OBP   | SLG   | OPS   |
+|-------|------|---------|------|------|------|------|------|-----|----|-----|------|-----|----|-----|-----|-----|-----|----|----|-------|-------|-------|-------|
+| 17.93 | 6.21 | 63.03   | 2046 | 8603 | 7551 | 1267 | 2283 | 395 | 98 | 217 | 1176 | 210 | 70 | 870 | 781 | 90  | 147 | 67 | 93 | 0.304 | 0.378 | 0.469 | 0.847 |
 
 ### The Pitch
 
