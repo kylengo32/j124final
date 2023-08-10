@@ -1,6 +1,6 @@
 # J124 Intro to Data Journalism Final Project: A Data-Driven Look Into The Baseball Hall of Fame
 ## By Kyle Ngo
-Open and make your own personal copy of the [database](https://docs.google.com/spreadsheets/d/1PE7dACChPplbgefL6Vqhv6HwqOJ9SEG_7OUa4KmGCnI/edit?usp=sharing). This data originally comes from [Baseball-Reference](https://www.baseball-reference.com/awards/hof_batting.shtml), but since the database included pitchers' hitting stats and people inducted into the Hall of Fame for other roles, like manager, I have cleaned the data to only include position players who have been inducted into the Hall of Fame for their excellent playing careers. <br/>
+Download and make your own personal copy of the [database](Data_Final_Project_Database.csv) in Google Sheets. This data originally comes from [Baseball-Reference](https://www.baseball-reference.com/awards/hof_batting.shtml), but since the database included pitchers' hitting stats and people inducted into the Hall of Fame for other roles, like manager, I have cleaned the data to only include position players who have been inducted into the Hall of Fame for their excellent playing careers. <br/>
 
 ### Data Analysis
 #### 1. Out of those in the dataset, who had the highest OPS, the lowest OPS, and the median OPS?
