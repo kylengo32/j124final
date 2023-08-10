@@ -8,9 +8,8 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 2. Sort A->Z to find the lowest OPS, who should be Luis Aparicio with a 0.653.
 3. Sort Z->A to find the highest OPS, who should be Josh Gibson with a 1.176.
 4. With the column AC selected, go to the Data tab -> Column Stats -> Median. The median should be 0.8405, which is right in between three players: Carl Yastrzemski and Cap Anson with a 0.841, and Cool Papa Bell with a 0.840.
-<br/>
-!['Screenshot showing how the spreadsheet should look.']
-<br/>
+![Screenshot of what the spreadsheet should look like. The three bars for filtering OPS is highlighted.](Data_Analysis_Q1.png)
+
 
 #### 2. What were the top three most common values of OPS and WAR/pos?
 1. Create a Pivot Table (Insert -> Pivot Table) encompassing the entire spreadsheet.
@@ -19,6 +18,7 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 4. The top three most common values of OPS should be 0.817, 0.846, and 0.797.
 5. Do the same for WAR/pos, just with all instances of OPS being replaced by WAR/pos.
 6. The most common value of WAR/pos is a four-way tie between 68.4, 59.5, 48, and 47.7.
+![Screenshot of what the pivot table should look like.](Data_Analysis_Q2.png)
 
 #### 3. How does the average WAR/pos per year for those inducted in the 1990s (1990-1999) compare to those inducted in the 2000s (2000-2009) and those inducted in the 2010s (2010-2019)?
 1. Create a new Pivot Table.
@@ -30,6 +30,7 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 7. Do the same for the 2010s. The total WAR/pos for the decade should be 1272.2.
 8. Dividing by 10 should give an average WAR/pos per year of 127.22 for the 2010s decade.
 9. Based on this, we can see that the inductees in the 90s had a much lower average WAR/pos than the inductees in either the 2000s or the 2010s. This could possibly indicate that much better players got inducted after 2000, or that simply not as many players in general made it in 90s compared to the 2000s or 2010s.
+![Screenshot of what the pivot table should look like.](Data_Analysis_Q3.png)
 
 #### 4. What is the percent change in average ASGs per year from the 2000s inductees to the 2010s inductees?
 1. Create a new Pivot Table
@@ -37,24 +38,20 @@ Open and make your own personal copy of the [database](https://docs.google.com/s
 3. Add up the total number of ASGs in from 2000-2009 and 2010-2019, which should give you 199 and 153.
 4. Divide each value by 10 to give you a 19.9 average ASGs per year for the 2000s and 15.3 average ASGs per year for the 2010s.
 5. Then, do (New - Old) / New, or (15.3-19.9)/15.3, times 100, to give a percent change of 30.07%.
+![Screenshot of what the pivot table should look like.](Data_Analysis_Q4.png)
 
 #### 5. Find the mathematical average of every statistical column.
 1. Go to Data -> Column Stats.
 2. Scroll to find "Average."
 3. Record this value for each column, besides Rk, Name, Inducted, From, and To.
 4. The row should have these values. <br/>
-
 | Yrs   | ASG  | WAR/pos | G    | PA   | AB   | R    | H    | 2B  | 3B | HR  | RBI  | SB  | CS | BB  | SO  | IBB | GDP | SF | SH | BA    | OBP   | SLG   | OPS   |
 |-------|------|---------|------|------|------|------|------|-----|----|-----|------|-----|----|-----|-----|-----|-----|----|----|-------|-------|-------|-------|
 | 17.93 | 6.21 | 63.03   | 2046 | 8603 | 7551 | 1267 | 2283 | 395 | 98 | 217 | 1176 | 210 | 70 | 870 | 781 | 90  | 147 | 67 | 93 | 0.304 | 0.378 | 0.469 | 0.847 |
-<br/>
+
+![Screenshot of what the column stats looks like.](Data_Analysis_Q5.png)
+
 ### The Pitch
-
-
-
-
-
-
 
 
 ### Data Visualization
